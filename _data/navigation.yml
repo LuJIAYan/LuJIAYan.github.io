@@ -8,4 +8,9 @@
 - title: 信息可视化作品集
   url: /infovis/ 
   excerpt: "信息可视化的个人作品集"
-  
+ 
+ 
+ 
+- title:文章
+  url: /post/ 
+  excerpt: "文章"
