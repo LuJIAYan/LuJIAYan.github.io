@@ -1,3 +1,23 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @LuJIAYan
+ Sign out
+ Watch 1
+  Star 1
+  Fork 680 hanteng/hanteng.github.io
+forked from mmistakes/skinny-bones-jekyll
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
+Tree: b56a046b6f Find file Copy pathhanteng.github.io/_sass/_sliding-menu.scss
+b56a046  7 days ago
+@hanteng hanteng disable reset slide position
+2 contributors @hanteng @mmistakes
+RawBlameHistory      
+196 lines (187 sloc)  4.05 KB
 /* ==========================================================================
    OFF CANVAS SLIDING MENU
    Based on code by Diego Eis
@@ -43,12 +63,14 @@
   &.slide {
     background: $danger-color;
     transform: translateX(0); /* don't slide close button on small screens only */
+    /* disable reset slide position
     @include media($medium) {
-      transform: translateX(em(-600)); /* reset slide position */
+      transform: translateX(em(-600)); 
     }
     @include media($large) {
-      transform: translateX(em(-900)); /* reset slide position */
+      transform: translateX(em(-900)); 
     }
+    */
   }
 }
 
@@ -191,3 +213,15 @@
     }
   }
 }
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
