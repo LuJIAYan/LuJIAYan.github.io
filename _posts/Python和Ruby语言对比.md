@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Python和Ruby语言对比"
+title:  "2017年-12月-31日-Python和Ruby语言对比.md"
 categories: posts rwd
 ---
 # Python和Ruby语言对比
