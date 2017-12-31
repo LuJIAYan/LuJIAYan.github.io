@@ -2,10 +2,9 @@
 layout: default
 title:  "2017年-12月-31日-Python和Ruby语言对比.md"
 categories: posts rwd
-image:页面LOGO_meitu_1.jpg
 ---
 
-
+<img border="0" src="/images/页面LOGO_meitu_1.jpg" alt="Pulpit rock" width="304" height="228">
 <h1>一、异同对比选择</h1>
 <b>1.Python和ruby的相同点：</b><br><br>
 <p>
