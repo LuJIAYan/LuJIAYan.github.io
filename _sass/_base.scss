@@ -6,252 +6,394 @@
    Typography
    ========================================================================== */
 
+body {
+	font-family: $base-font;
+	color: $text-color;
+    background-image:
+      linear-gradient(rgba(255, 255, 240, 0.9), rgba(255, 255, 240, 0.7)), 
+      url('../images/oslRB.png');
+	@include font-size(16);
+}
 
-< html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Render &mdash; 100% Free Fully Responsive HTML5 Template </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	
+p {
+	@include font-size(18,yes,28);
+}
 
-  
+li {
+	@include font-size(16,12,24);
+}
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+/* Headings */
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font;
+	text-rendering: optimizeLegibility; // Fix the character spacing for headings
+}
+h1 {
+	@include font-size(36);
+}
+h2 {
+	@include font-size(32);
+}
+h3 {
+	@include font-size(28);
+}
+h4 {
+	@include font-size(24);
+}
+h5 {
+	@include font-size(20);
+}
+h6 {
+	@include font-size(18);
+}
 
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Superfish -->
-	<link rel="stylesheet" href="css/superfish.css">
+/* Underlined text */
 
-	<link rel="stylesheet" href="css/style.css">
+u,
+ins {
+	text-decoration: none;
+	border-bottom: 1px solid $text-color;
+}
 
+/* Links */
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+a {
+	color: $link-color;
+	&:hover {
+		color: darken($link-color, 20);
+	}
+	&:focus {
+		@extend %tab-focus;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
 
-	</head>
-	<body>
-		<div id="fh5co-wrapper">
-		<div id="fh5co-page">
-		<div id="fh5co-header">
-			<div class="top">
-				<div class="container">
-					<span> <a href="#"><i>@</i>lujiayan123@126.com</a></span>
-					<span> <a href="id：161013068"><i class="icon-mobile3"></i> 161013068</a></span>
-				</div>
-			</div>
-			<!-- end:top -->
-			<header id="fh5co-header-section">
-				<div class="container">
-					<div class="nav-header">
-						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-						<h1 id="fh5co-logo"><a href="index.html">不追风筝的人</a></h1>
-						<!-- START #fh5co-menu-wrap -->
-					<nav id="fh5co-menu-wrap" role="navigation">
-						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li class="active">
-								<a href="index.html">Home</a>
-							</li>
-							<li>
-								<a href="portfolio.html">我的作品</a>
-								<ul class="fh5co-sub-menu">
-								 	<li><a href="left-sidebar.html">信息可视化</a></li>
-								 	<li><a href="right-sidebar.html">网页设计</a></li>
+/* Quoted text */
 
-								</ul>
-							</li>
-							<li>
-								<a href="services.html" class="fh5co-sub-ddown">学习笔记</a>
-								 <ul class="fh5co-sub-menu">
-								 	<li><a href="left-sidebar.html">web</a></li>
-								 	<li><a href="right-sidebar.html">tableau</a></li>
+blockquote {
+  padding-left: $gutter;
+  padding-right: $gutter;
+  border-left: 6px solid $info-color;
+  p {
+    font-family: $alt-font;
+    @include font-size(24);
+  }
+  cite {
+    font-family: $base-font;
+    font-weight: 700;
+    font-style: normal;
+    @include font-size(18);
+  }
+}
 
-								</ul>
-							
-							<li><a href="#">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-					</div>
-				</div>
-			</header>
-			
-		</div>
-		
+// Code
+tt, code, kbd, samp, pre {
+	font-family: $code-font;
+}
+pre {
+	overflow-x: auto; // add scrollbars to wide code blocks
+}
+p code,
+li code {
+	@include font-size(16,no);
+	color: $text-color;
+	white-space: nowrap;
+	margin: 0 2px;
+	padding: 0 5px;
+	border: 1px solid $border-color;
+	background-color: lighten($primary-color, 95);
+	border-radius: $border-radius;
+}
 
-		<div class="fh5co-hero">
-			<div class="fh5co-overlay"></div>
-			<div class="fh5co-cover text-center" style="background-image: url(images/work-1.jpg);">
-				<div class="desc animate-box">
-					<h2>我的个人博客</h2>
-					<span>my first website blog<a href="#" target="_blank" class="fh5co-site-name">https://lujiayan.github.io</a></span>
-					<span><a class="btn btn-primary" href="#">Hire Us</a></span>
-				</div>
-			</div>
+/*
+   Media and embeds
+   ========================================================================== */
 
-		</div>
-		<!-- end:header-top -->
-		<div id="fh5co-work-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 animate-box">
-						<h3 class="heading-section">my works</h3>
-                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1514732468585&di=364ff903baa731e7574d8727a97ec93c&imgtype=0&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fw11%2F69%2Fd%2F85.jpg" width="228" height="255"</a><br>
-						<p>卢佳燕<br> 网络与新媒体1班<br>  161013068<br><br>倘使恶魔仍在你脑中徘徊萦绕，前程又谈何说起呢？ </p>
-					</div>
-					<div class="col-md-9">
-						<div class="row">
-							<div class="col-md-4 col-sm-4">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-2.jpg);">
-									<a class="image-popup text-center" href="#">
-										<div class="prod-title">
-											<h3>Don’t Just Stand There</h3>
-											<span>可视化作品</span>
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-8 col-sm-8">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
-									<a class="image-popup text-center" href="#">
-										<div class="prod-title">
-											<h3>Don’t Just Stand There</h3>
-											<span>网页设计作品</span>
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-8 col-sm-8">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
-									<a class="image-popup text-center" href="#">
-										<div class="prod-title">
-											<h3>Don’t Just Stand There</h3>
-											<span>学习笔记</span>
-										</div>
-									</a>
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
-									<a class="image-popup text-center" href="#">
-										<div class="prod-title">
-											<h3>Don’t Just Stand There</h3>
-											<span>关于我</span>
-										</div>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<!-- fh5co-services-section -->
-		<div id="fh5co-content-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-6">
-						<div class="fh5co-testimonial text-center animate-box">
-							<h2>About</h2>
-							<figure>
-								                        <img src="http://img4.duitang.com/uploads/item/201509/27/20150927215431_cQzJr.jpeg" width="228" height="228"</a><br>
-							</figure>
-							<blockquote>
-								<p>“我来自中山大学南方学院<br>文学与传媒学院<br>网络与新媒体专业<br>学号161013068”<br></p>
-							</blockquote>
-							<span>LuJIaYan</span>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="fh5co-about-us animate-box">
-							<h2 class="text-center">About ME</h2>
-							<img src="images/about-image.jpg" alt="About Us">
-							<p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”<br></a>
-							 <br><span>Steve Jobs, Apple Inc.</span></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-        <div class="copyrights">Collect from <a href="http://www.777moban.com/" >企业网站模板</a></div>
-		
-		<!-- fh5co-blog-section -->
-		<footer>
-			<div id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<p>倘使恶魔仍在你脑中徘徊萦绕，前程又谈何说起呢？ <a href=" https://lujiayan.github.io" target="_blank" title="777模板"><br>我的个人博客</a>  <a href="https://lujiayan.github.io" title="网页模板" target="_blank">联系邮箱</a> lujiayan123@126.com </a></p>
-						</div>
-						<div class="col-md-6">
-							<ul class="footer-menu">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">我的作品</a></li>
-								<li><a href="#">我的笔记</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Contact</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	
+/* Figures and images */
 
-	</div>
-	<!-- END fh5co-page -->
+figure {
+  margin-left: -1 * $gutter;
+  margin-right: -1 * $gutter;
+  // full width figures on small screens
+  @include media($small) {
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+  }
+  @include clearfix;
+  img,
+  .fluid-width-video-wrapper,
+  .palette {
+    margin-bottom: (0px + $doc-line-height) / 2;
+    // margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+  }
+  a {
+    img {
+      /* Image hover animation */
+      @include transition(box-shadow 0.3s);
+      &:hover {
+        box-shadow: 0 0 10px rgba($black, .20);
+      }
+    }
+  }
+  &.half {
+    @include outer-container;
+    @include media($small) {
+      a,
+      > img {
+        @include span-columns(6);
+        @include omega(2n);
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+  &.third {
+    @include outer-container;
+    @include media($small) {
+      a,
+      > img {
+        @include span-columns(4);
+        @include omega(3n);
+      }
+      figcaption {
+        clear: left;
+      }
+    }
+  }
+}
 
-	</div>
-	<!-- END fh5co-wrapper -->
+/* Figure captions */
 
-	<!-- jQuery -->
+figcaption {
+  padding-left: $gutter;
+  padding-right: $gutter;
+  @include media($small) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  font-family: $alt-font;
+  @include font-size(14,yes);
+  color: $caption-color;
+  clear: both;
+  a {
+    color: $caption-color;
+    text-decoration: none;
+    border-bottom: 1px dotted $caption-color;
+    &:hover {
+      border-bottom-style: solid;
+    }
+  }
+}
 
+.half,
+.third {
+  & figcaption { /* Remove caption indents */
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Superfish -->
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
+/* Fix IE9 SVG bug */
+svg:not(:root) {
+  overflow: hidden;
+}
 
-	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
+/*
+   Tables
+   ========================================================================== */
 
-	</body>
-</html>
+table {
+	border-collapse: collapse;
+	margin: ((0px + $doc-line-height) / 2) 0;
+	margin: ((0rem + ($doc-line-height / $doc-font-size)) / 2) 0;
+	width: 100%;
+}
+tbody {
+	tr:hover > td, tr:hover > th {
+		background-color: $table-hover-color;
+	}
+}
+thead {
+	tr:first-child td {
+		border-bottom: 2px solid $table-border-color;
+	}
+}
+th {
+	padding: (0px + $doc-line-height) / 2;
+	padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+	font-family: $alt-font;
+	font-weight: bold;
+	text-align: left;
+	background-color: $table-header-color;
+	border-bottom: 1px solid darken($border-color, 15%);
+}
+td {
+	border-bottom: 1px solid $border-color;
+	padding: (0px + $doc-line-height) / 2;
+	padding: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+}
+tr, td, th {
+	vertical-align: middle;
+}
 
+/*
+   Horizontal rules
+   ========================================================================== */
 
+hr {
+	display: block;
+	position: relative;
+	margin: 0px + (2 * $doc-line-height) 0;
+	margin: 0rem + ((2 * $doc-line-height) / $doc-font-size) 0;
+	padding: 0;
+	height: 5px;
+	border: 0;
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 2 * $column;
+		height: 1px;
+		background: $border-color;
+	}
+}
+
+/*
+   Forms
+   ========================================================================== */
+
+fieldset {
+	background: lighten($border-color, 10);
+	border: 1px solid $border-color;
+	margin-bottom: 0px + $doc-line-height;
+	margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+	padding: $gutter;
+	border-radius: $border-radius;
+}
+
+input,
+label,
+select {
+	display: block;
+	@include font-size($form-font-size,no);
+}
+
+label {
+	font-weight: bold;
+	font-family: $alt-font;
+	margin-bottom: (0px + $doc-line-height) / 4;
+	margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 4;
+	&.required:after {
+		content: "*";
+	}
+	abbr {
+		display: none;
+	}
+}
+
+textarea,
+#{$all-text-inputs},
+select,
+select[multiple=multiple] {
+	@include box-sizing(border-box);
+	@include transition(border-color);
+	background-color: white;
+	border-radius: $form-border-radius;
+	border: 1px solid $form-border-color;
+	box-shadow: $form-box-shadow;
+	font-family: $form-font-family;
+	font-size: $form-font-size;
+	margin-bottom: (0px + $doc-line-height) / 2;
+	margin-bottom: (0rem + ($doc-line-height / $doc-font-size)) / 2;
+	padding: ((0px + $doc-line-height) / 3) ((0px + $doc-line-height) / 3);
+	padding: ((0rem + ($doc-line-height / $doc-font-size)) / 3) ((0rem + ($doc-line-height / $doc-font-size)) / 3);
+	width: 100%;
+	&:hover {
+		border-color: $form-border-color-hover;
+	}
+	&:focus {
+		border-color: $form-border-color-focus;
+		box-shadow: $form-box-shadow-focus;
+		outline: none;
+	}
+}
+
+textarea {
+	resize: vertical;
+}
+
+input[type="search"] {
+	@include appearance(none);
+}
+
+input[type="checkbox"], input[type="radio"] {
+	display: inline;
+	margin-right: (0px + $doc-line-height) / 4;
+	margin-right: (0rem + ($doc-line-height / $doc-font-size)) / 4;
+}
+
+input[type="file"] {
+	width: 100%;
+}
+
+select {
+	width: auto;
+	max-width: 100%;
+	margin-bottom: 0px + $doc-line-height;
+	margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
+}
+
+form button,
+input[type="submit"] {
+	@extend .btn;
+	@include appearance(none);
+	cursor: pointer;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+/*
+   Navigation lists
+   ========================================================================== */
+
+/**
+ * Removes margins, padding, and bullet points from navigation lists
+ *
+ * Example usage:
+ * <nav>
+ *    <ul>
+ *      <li><a href="#link-1">Link 1</a></li>
+ *      <li><a href="#link-2">Link 2</a></li>
+ *      <li><a href="#link-3">Link 3</a></li>
+ *    </ul>
+ *  </nav>
+ */
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+/*
+   Global animation transition
+   ========================================================================== */
+
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, .highlight {
+	@include transition (color 0.2s ease-out, opacity 0.2s ease-out, background 0.2s ease-out, border-color 0.2s ease-out);
+}
