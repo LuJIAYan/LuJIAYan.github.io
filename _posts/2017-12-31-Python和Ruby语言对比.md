@@ -2,6 +2,9 @@
 layout: default
 title:  "2017年-12月-31日-Python和Ruby语言对比.md"
 categories: posts rwd
+image:
+  teaser: 页面LOGO_meitu_1.jpg
+  feature: 页面LOGO_meitu_1.jpg
 ---
 
 <img border="0" src="/images/页面LOGO_meitu_1.jpg" alt="Pulpit rock" width="304" height="228">
