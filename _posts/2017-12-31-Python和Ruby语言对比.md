@@ -1,4 +1,9 @@
-# Python和Ruby语言对比
+---
+layout: default
+title:  "2017年-12月-31日-Python和Ruby语言对比.md"
+categories: posts rwd
+---
+
 
 ## 一、异同对比选择1、Python和ruby的相同点：
 ### 
