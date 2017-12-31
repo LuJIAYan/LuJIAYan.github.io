@@ -10,32 +10,18 @@ title: "最近的文章"
 {% endfor %}
 </div><!-- /.tiles -->
 
-<!-- fh5co-services-section -->
-		<div id="fh5co-content-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-6">
-						<div class="fh5co-testimonial text-center animate-box">
-							<h2>About</h2>
-							<figure>
-								                        <img src="http://img4.duitang.com/uploads/item/201509/27/20150927215431_cQzJr.jpeg" width="228" height="228"</a><br>
-							</figure>
-							<blockquote>
-								<p>“我来自中山大学南方学院<br>文学与传媒学院<br>网络与新媒体专业<br>学号161013068”<br></p>
-							</blockquote>
-							<span>LuJIaYan</span>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="fh5co-about-us animate-box">
-							<h2 class="text-center">About ME</h2>
-							<img src="images/about-image.jpg" alt="About Us">
-							<p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”<br></a>
-							 <br><span>Steve Jobs, Apple Inc.</span></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+欢迎进入HTML的神奇世界
 
+一、什么是HTML
 
+HTML的英文全称是Hypertext Marked Language，中文叫做“超文本标记语言”。
+和一般文本的不同的是，一个HTML文件不仅包含文本内容，还包含一些Tag，中文称“标记”。
+一个HTML文件的后缀名是.htm或者是.html。 用文本编辑器就可以编写HTML文件。
+二、如何编写HTML文件
+
+让我们先创建第一个HTML文件！
+
+作者：Yumi__扶醉入香闺
+链接：https://www.jianshu.com/p/f4c68a69b056
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
