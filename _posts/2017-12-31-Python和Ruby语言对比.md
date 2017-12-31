@@ -2,6 +2,9 @@
 layout: default
 title:  "2017年-12月-31日-Python和Ruby语言对比.md"
 categories: posts rwd
+image:
+  teaser: 地球.gif
+  feature: 地球.gif
 ---
 
 
