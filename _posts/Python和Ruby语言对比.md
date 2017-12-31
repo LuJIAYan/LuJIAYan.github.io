@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Python和Ruby语言对比"
-categories: 
+categories: posts rwd
 ---
 # Python和Ruby语言对比
 
