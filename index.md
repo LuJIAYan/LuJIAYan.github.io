@@ -10,6 +10,7 @@ title: "最近的文章"
 {% endfor %}
 </div><!-- /.tiles -->
 
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -68,8 +69,8 @@ title: "最近的文章"
 		<div id="fh5co-header">
 			<div class="top">
 				<div class="container">
-					<span> <a href="#"><i>@</i> lujiayan123@126.com</a></span>
-					<span> <a href="tel://+12345678910"><i class="icon-mobile3"></i> 123 4567 8910</a></span>
+					<span> <a href="#"><i>@</i>lujiayan123@126.com</a></span>
+					<span> <a href="id：161013068"><i class="icon-mobile3"></i> 161013068</a></span>
 				</div>
 			</div>
 			<!-- end:top -->
@@ -81,35 +82,26 @@ title: "最近的文章"
 						<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
-							<li>
+							<li class="active">
 								<a href="index.html">Home</a>
 							</li>
-							<li class="active">
+							<li>
 								<a href="portfolio.html">我的作品</a>
+								<ul class="fh5co-sub-menu">
+								 	<li><a href="left-sidebar.html">信息可视化</a></li>
+								 	<li><a href="right-sidebar.html">网页设计</a></li>
+
+								</ul>
 							</li>
 							<li>
 								<a href="services.html" class="fh5co-sub-ddown">学习笔记</a>
 								 <ul class="fh5co-sub-menu">
-								 	<li><a href="left-sidebar.html">Web Development</a></li>
-								 	<li><a href="right-sidebar.html">Branding &amp; Identity</a></li>
-									<li>
-										<a href="#" class="fh5co-sub-ddown">Free HTML5</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="#/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
-											<li><a href="#/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
-											<li><a href="#/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
-											<li><a href="#/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
-											<li><a href="#/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
-											<li><a href="#/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
-										</ul>
-									</li>
-									<li><a href="#">UI Animation</a></li>
-									<li><a href="#">Copywriting</a></li>
-									<li><a href="#">Photography</a></li> 
+								 	<li><a href="left-sidebar.html">web</a></li>
+								 	<li><a href="right-sidebar.html">tableau</a></li>
+
 								</ul>
-							</li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="#">Blog</a></li>
+							
+							<li><a href="#">About</a></li>
 							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav>
@@ -119,128 +111,118 @@ title: "最近的文章"
 			
 		</div>
 		
-		
+
 		<div class="fh5co-hero">
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover text-center" style="background-image: url(images/work-1.jpg);">
 				<div class="desc animate-box">
-					<h2>Portfolio</h2>
-					<span>Lovely Crafted by <a href="#" target="_blank" class="fh5co-site-name">FREEHTML5.co</a></span>
+					<h2>我的个人博客</h2>
+					<span>my first website blog<a href="#" target="_blank" class="fh5co-site-name">https://lujiayan.github.io</a></span>
 					<span><a class="btn btn-primary" href="#">Hire Us</a></span>
 				</div>
 			</div>
 
 		</div>
-		<!-- END: header -->
-		<div id="fh5co-work">
-			<div class="work-wrap">
-				<div class="container">
-					<div class="fh5co-project-inner row">
-						<div class="fh5co-imgs col-md-8 animate-box">
-							<div class="img-holder-1 animate-box">
-								<img src="images/work_1_large.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-							<div class="img-holder-2 animate-box">
-								<img src="images/work_1_small.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-						</div>
-						<div class="fh5co-text col-md-4 animate-box">
-							<span>Web Design, IdentiTy, Responsive</span>
-							<h2>Guide Landing Page</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="work_1.html" class="btn btn-primary">View Project</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="work-wrap work-wrap-bg">
-				<div class="container">
-					<div class="fh5co-project-inner row">
-						<div class="fh5co-imgs col-md-8 col-md-push-4 animate-box">
-							<div class="img-holder-1 animate-box">
-								<img src="images/work_2_large.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-							<div class="img-holder-2 animate-box">
-								<img src="images/work_2_small.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-						</div>
-						<div class="fh5co-text col-md-4 col-md-pull-8 animate-box">
-							<span>Web Design, IdentiTy, Responsive</span>
-							<h2>Sprint for Portfolio</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="work_1.html" class="btn btn-primary">View Project</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="work-wrap">
-				<div class="container">
-					<div class="fh5co-project-inner row">
-						<div class="fh5co-imgs col-md-8 animate-box">
-							<div class="img-holder-1 animate-box">
-								<img src="images/work_3_large.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-							<div class="img-holder-2 animate-box">
-								<img src="images/work_3_small.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-						</div>
-						<div class="fh5co-text col-md-4 animate-box">
-							<span>Web Design, IdentiTy, Responsive</span>
-							<h2>Display for Business Website</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="work_1.html" class="btn btn-primary">View Project</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="work-wrap work-wrap-bg">
-				<div class="container">
-					<div class="fh5co-project-inner row">
-						<div class="fh5co-imgs col-md-8 col-md-push-4 animate-box">
-							<div class="img-holder-1 animate-box">
-								<img src="images/work_4_large.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-							<div class="img-holder-2 animate-box">
-								<img src="images/work_4_small.jpg" alt="Free HTML5 Bootstrap Template">
-							</div>
-						</div>
-						<div class="fh5co-text col-md-4 col-md-pull-8 animate-box">
-							<span>Web Design, IdentiTy, Responsive</span>
-							<h2>Slant for Creatives</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p><a href="work_1.html" class="btn btn-primary">View Project</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- fh5co-work-section -->
-		<div id="fh5co-start-project-section">
+		<!-- end:header-top -->
+		<div id="fh5co-work-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center animate-box">
-						<h2>Start a Project</h2>
-						<a href="#" class="btn btn-primary">Get in Touch</a>
+					<div class="col-md-3 animate-box">
+						<h3 class="heading-section">my works</h3>
+                        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1514732468585&di=364ff903baa731e7574d8727a97ec93c&imgtype=0&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fw11%2F69%2Fd%2F85.jpg" width="228" height="255"</a><br>
+						<p>卢佳燕<br> 网络与新媒体1班<br>  161013068<br><br>倘使恶魔仍在你脑中徘徊萦绕，前程又谈何说起呢？ </p>
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<div class="fh5co-grid animate-box" style="background-image: url(images/work-2.jpg);">
+									<a class="image-popup text-center" href="#">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>可视化作品</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="fh5co-grid animate-box" style="background-image: url(images/work-3.jpg);">
+									<a class="image-popup text-center" href="#">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>网页设计作品</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-8">
+								<div class="fh5co-grid animate-box" style="background-image: url(images/work-4.jpg);">
+									<a class="image-popup text-center" href="#">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>学习笔记</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="fh5co-grid animate-box" style="background-image: url(images/work-5.jpg);">
+									<a class="image-popup text-center" href="#">
+										<div class="prod-title">
+											<h3>Don’t Just Stand There</h3>
+											<span>关于我</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- START a project -->
-
+		
+		<!-- fh5co-services-section -->
+		<div id="fh5co-content-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="fh5co-testimonial text-center animate-box">
+							<h2>About</h2>
+							<figure>
+								                        <img src="http://img4.duitang.com/uploads/item/201509/27/20150927215431_cQzJr.jpeg" width="228" height="228"</a><br>
+							</figure>
+							<blockquote>
+								<p>“我来自中山大学南方学院<br>文学与传媒学院<br>网络与新媒体专业<br>学号161013068”<br></p>
+							</blockquote>
+							<span>LuJIaYan</span>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="fh5co-about-us animate-box">
+							<h2 class="text-center">About ME</h2>
+							<img src="images/about-image.jpg" alt="About Us">
+							<p>“Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”<br></a>
+							 <br><span>Steve Jobs, Apple Inc.</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="copyrights">Collect from <a href="http://www.777moban.com/" >企业网站模板</a></div>
+		
+		<!-- fh5co-blog-section -->
 		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<p>Copyright 2016 Free Html5 <a href="#">Render</a>. All Rights Reserved. <br>More Templates <a href="http://www.777moban.com/" target="_blank" title="777模板">777模板</a> - Collect from <a href="http://www.777moban.com/" title="网页模板" target="_blank">网页模板</a> / Demo Images: <a href="#">Unsplash</a></p>
+							<p>倘使恶魔仍在你脑中徘徊萦绕，前程又谈何说起呢？ <a href=" https://lujiayan.github.io" target="_blank" title="777模板"><br>我的个人博客</a>  <a href="https://lujiayan.github.io" title="网页模板" target="_blank">联系邮箱</a> lujiayan123@126.com </a></p>
 						</div>
 						<div class="col-md-6">
 							<ul class="footer-menu">
 								<li><a href="#">Home</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">Services</a></li>
+								<li><a href="#">我的作品</a></li>
+								<li><a href="#">我的笔记</a></li>
 								<li><a href="#">About</a></li>
-								<li><a href="#">Blog</a></li>
 								<li><a href="#">Contact</a></li>
 							</ul>
 						</div>
