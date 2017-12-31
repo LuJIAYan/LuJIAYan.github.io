@@ -5,7 +5,7 @@ modified:
 categories: {{ dir }}
 excerpt:
 tags: []
-image:
+image:<img border="0" src="/images/pulpit.jpg" alt="Pulpit rock" width="304" height="228">
   feature:
   teaser:
   thumb:
