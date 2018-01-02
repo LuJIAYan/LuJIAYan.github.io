@@ -11,9 +11,10 @@ body {
 	color: $text-color;
     background-image:
       linear-gradient(rgba(255, 255, 240, 0.9), rgba(255, 255, 240, 0.7)), 
-      url('../images/20150927215431_cQzJr.jpeg',width="100%");
+      url('../images/20150927215431_cQzJr.jpeg');
 	@include font-size(16);
 }
+
 
 p {
 	@include font-size(18,yes,28);
