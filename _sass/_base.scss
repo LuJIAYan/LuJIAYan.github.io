@@ -11,7 +11,7 @@ body {
 	color: $text-color;
     background-image:
       linear-gradient(rgba(255, 255, 240, 0.9), rgba(255, 255, 240, 0.7)), 
-      url('../images/背景3.gif');
+      url('../images/仙人掌.jpg');
 	@include font-size(16);
 }
 
@@ -48,6 +48,7 @@ h5 {
 h6 {
 	@include font-size(18);
 }
+
 
 /* Underlined text */
 
