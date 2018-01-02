@@ -55,6 +55,8 @@
 			padding: (.25 * $masthead-height) 0 (.25 * $masthead-height) ;
 			height: $masthead-height;
 			font-family: $alt-font;
+			@include transition(color 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55));
+			@include transition(background-color 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55));
 			&:before,
 			&:after {
 				content: '';
@@ -62,8 +64,8 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 2px;
-				@include transition(width 0.3s);
+				height: 3px;
+				@include transition(width 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55));
 			}
 			&:before {
 				width: 100%;
@@ -71,12 +73,16 @@
 			}
 			&:after {
 				width: 0;
-				background: $black;
+				background-color: $oxfordblue;
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
 			}
+			&:hover {
+ 				color: $oxfordblue;
+				background-color: $lemon;
+ 			}
 		}
 	}
 }
