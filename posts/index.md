@@ -1,5 +1,13 @@
 ---
-layout: default
-title:  "网页设计作品"
-categories: portfolio
+layout: archive
+title: ""
+modified:
+excerpt: "我的笔记"
+tags: []
 ---
+
+<div class="tiles">
+{% for post in site.categories.posts %}
+  {% include post-grid.html %}
+{% endfor %}
+</div>
