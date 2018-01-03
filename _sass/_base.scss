@@ -9,12 +9,11 @@
 body {
 	font-family: $base-font;
 	color: $text-color;
-    background-image:
-      linear-gradient(rgba(255, 255, 240, 0.9), rgba(255, 255, 240, 0.7)), 
-      url('../images/仙人掌.jpg');
+	background-image:
+    url('../images/小清新.jpg');
+	
 	@include font-size(16);
 }
-
 
 p {
 	@include font-size(18,yes,28);
@@ -48,7 +47,6 @@ h5 {
 h6 {
 	@include font-size(18);
 }
-
 
 /* Underlined text */
 
