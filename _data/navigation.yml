@@ -15,4 +15,9 @@
   url: /posts/
   excerpt: "我的学习笔记"
   image: 充电.gif
+  
+  - title: 联系我
+  url: /contact/
+  excerpt: "爱我请留言"
+  image: contact动图.gif
 
