@@ -11,12 +11,12 @@
   image: 猫.gif
   
 - title: web学习笔记
-  url:posts rwd 
+  url: /posts rwd/ 
   excerpt: "网页设计与制作学习笔记"
   image: 充电.gif
 
 - title: 可视化学习笔记
-  url: posts  infovis
+  url: /posts  infovis/
   excerpt: "信息可视化学习笔记"
   image: 奔跑.gif  
   
