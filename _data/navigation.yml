@@ -10,10 +10,15 @@
   excerpt: "信息可视化的个人作品集"
   image: 猫.gif
   
-- title: 学习笔记
-  url: /posts/
-  excerpt: "我的学习笔记"
+- title: web学习笔记
+  url:posts rwd 
+  excerpt: "网页设计与制作学习笔记"
   image: 充电.gif
+
+- title: 可视化学习笔记
+  url: posts  infovis
+  excerpt: "信息可视化学习笔记"
+  image: 奔跑.gif  
   
 - title: 联系我
   url: /contact/
