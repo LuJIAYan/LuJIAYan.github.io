@@ -1,0 +1,115 @@
+06. # 页面结构 Page Structure p.173
+
+## 6.3 页面结构组件 PAGE STRUCTURE COMPONENTS
+p.190
+> - [ ] `K,`  Web “sites” are complete abstractions ...
+---
+p.191
+> - [ ] `K,` 图 6.12
+
+### 构造页面 STRUCTURING A PAGE
+> - [ ]  `K,` As the web has matured over ...
+> - [ ]  `K,` If you work within a larger organization
+
+---
+p.192
+> - [ ]  `K,` Page headers are like miniature versions of the home page
+
+> - [ ]  `K,` Headers are the most visible component of site identity
+
+> - [ ]  `K,` 三點
+
+> - [ ]  `K,` You'll be ...
+
+#### 首页链接 Home link 
+> - [ ]  `K,` Placing ....
+
+---
+p.193
+
+#### 全局导航 Global navigation
+> - [ ]  `K,` Headers ...
+> - [ ]  `K,` 4點
+> - [ ]  `K,` Tabs are ...
+> - [ ]  `K,`  In designs ...
+
+#### 面包屑导航 Breadcrumb navigation 
+> - [ ]  `K,` Breadcrumb ...
+
+---
+p.194
+> - [ ]  `K,` Figure 6.13 ...
+
+#### 搜索 Search
+> - [ ]  `H,`
+
+#### 购物车 Shopping cart
+> - [ ]  `H,`
+
+#### 广告 Advertising
+> - [ ]  `H,`
+
+#### 侧栏列 Sidebar column 
+> - [ ]  `H,`
+---
+p.195
+#### 框:导航栏向左还是向右放？BOX: LEFT OR RIGHT SIDEBARS FOR NAVIGATION?
+> - [ ]  `H,`
+
+> - [ ]  `H,` Sidebars ...
+
+> - [ ]  `H,` Basic ....
+
+#### 主要内容 Main content
+> - [ ]  `H,` 
+
+#### 页脚 Footer
+> - [ ]  `H,` 
+> - [ ]  `H,` 
+
+> - [ ]  `H,` Figure 6.14
+
+---
+p.197
+### 优化快速交付的页面 OPTIMIZING PAGES FOR FAST DELIVERY
+
+> - [ ]  `L,` Figure 6.15
+
+> - [ ]  `L,` From about ...
+
+> - [ ]  `L,` While ...
+
+> - [ ]  `L,` As mobile ...
+
+---
+> - [ ]  `L,` Figure 6.16
+
+> - [ ]  `L,` This doesn't ...
+
+
+p.198
+### 围绕 "信息屏" 设计 DESIGNING AROUND “THE FOLD”
+> - [ ]  `J,` In 1994, ...
+> - [ ]  `J,` The roughly 115 ...
+---
+p.199
+> - [ ]  `J,` Figure 6.17
+> - [ ]  `J,` Although...
+---
+p.200
+> - [ ]  `J,卢佳燕` 
+通过（图6.17）。在较小的移动设备中,谷歌的研究显示的是一个向下的V型可视化折线图,但效果不太明显,特别是在较小的手机屏幕上,用户已经习惯了滚动看网页内容.
+> - [ ]  `J,卢佳燕` 
+然而，谷歌和Chartbeat的研究都表明,虽然注意力和可见性确实在"首屏"上有所下降,但大约有一半的用户看到的材料远远低于折叠线(大约900像素下).这些研究还注意到,如果你假设页面的顶部总是最明显的区域,那么听起来有点违反直觉:页面顶部并不是页面中最可靠的可见部分.因为页面很复杂,而且经常加载缓慢,不耐烦的用户通常会在页面顶部完全呈现前向下滚动页面.用户也很清楚,页面顶端通常被用来做广告,因此是一个不太值得去寻找信息的地方.用户的注意力和广告的可见性似乎在页面上的500到800像素之间达到峰值,相当接近大多数台式机和笔记本电脑屏幕上大约900像素的折叠区域.Chartbeat还注意到,那些选择向下滚动页面的web读者通常会花更多的时间在那里,而不是在“首屏”区域,这意味着当读者发现页面内容有吸引力时,他们会继续阅读页面.综上所述,这些研究表明,"折叠"并不是一条在充分注意和没有注意之间的硬性线,它的底部可见的区域得到了极大的关注,而可怕的“折线”在设计上的重要性可能比之前想象的要小.我们自己的结论是,折叠区域仍然是一个重要的过渡区域,在页面上的关键材料最好不低于600 - 700像素,以保证桌面和笔记本电脑的可见性.
+> - [ ]  `J,` Most,...
+
+---
+p.201
+> - [ ]  `J,` Obviously,...
+
+6.4 页面模板 PAGE TEMPLATES
+> - [ ]  `J,` Always ....
+> - [ ]  `J,` Figure 6.19
+
+
+
