@@ -9,7 +9,7 @@ image:
 # 安装wordpress经验分享
 ##  放假有空打开了Q群看到了这个公告
 
-<img border="0" src="/images/群公告.png" alt="Pulpit rock" width="1100" height="600">
+<img border="0" src="/images/群公告.png" alt="Pulpit rock" width="800" height="500">
 
 
 ###  翻了翻记录，看到了谢同学分享的视频教程跟着学了一下：
@@ -23,7 +23,7 @@ image:
 
 ###  跟着视频做，大约10分钟的位置，就可以做到这样了：
 
-<img border="0" src="/images/初步构建完成.png" alt="Pulpit rock" width="1100" height="600">
+<img border="0" src="/images/初步构建完成.png" alt="Pulpit rock" width="800" height="500">
 
 ## 第二步：
 
@@ -36,14 +36,14 @@ image:
  
  如图：
  
- <img border="0" src="/images/插件位置.png" alt="Pulpit rock" width="1100" height="600">
+ <img border="0" src="/images/插件位置.png" alt="Pulpit rock" width="800" height="500">
  
 
 ###  2. Theme是在主题那里上传wordpress-tpl_g5_helium_v5.4.22.zip，步骤是外观>>主题>>添加zip
  
  如图：
  
- <img border="0" src="/images/主题位置.png" alt="Pulpit rock" width="1100" height="600">
+ <img border="0" src="/images/主题位置.png" alt="Pulpit rock" width="800" height="500">
  
  
  
@@ -63,7 +63,7 @@ image:
 
 ###  如果找不到文件的话打开扩展名，如图：
 
-<img border="0" src="/images/扩展名.png" alt="Pulpit rock" width="1100" height="600">
+<img border="0" src="/images/扩展名.png" alt="Pulpit rock" width="800" height="500">
 
 ## 2.先用notepad++打开php.ini这个文件，具体路径大家自行找找，我这边没有在服务器上测试，使用的是XAMPP本地环境（xampp/php文件夹下）
 
@@ -73,7 +73,7 @@ image:
 
 ## 4.然后保存，重启一下apache服务（即重启下图这个东西）。 
 
-<img border="0" src="/images/XAMPP服务.png" alt="Pulpit rock" width="1100" height="600">
+<img border="0" src="/images/XAMPP服务.png" alt="Pulpit rock" width="800" height="500">
 
 ###  按stop》》start就是重启该服务了
 
