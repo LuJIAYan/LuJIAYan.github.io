@@ -29,6 +29,10 @@ image:
 
 ###  加入老师需要的插件：一个Plugin，一个Theme ，步骤大致是：  Gantry 5 Framework  --> 插件 pluginG5_helium --> 主題 theme
 
+[Plugin压缩包](https://github.com/gantry/gantry5/releases/download/5.4.22/wordpress-pkg_gantry5_v5.4.22.zip)
+
+[theme压缩包](https://github.com/gantry/gantry5/releases/download/5.4.22/wordpress-tpl_g5_helium_v5.4.22.zip)
+
 
 ## 具体步骤如下
  
