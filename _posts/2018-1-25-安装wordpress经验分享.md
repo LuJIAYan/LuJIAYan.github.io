@@ -7,10 +7,6 @@ image:
   feature: 主题位置.png
 ---
 # 安装wordpress经验分享
-##  放假有空打开了Q群看到了这个公告
-
-<img border="0" src="/images/群公告.png" alt="Pulpit rock" width="800" height="500">
-
 
 ###  翻了翻记录，看到了谢同学分享的视频教程跟着学了一下：
 
