@@ -1,3 +1,8 @@
+# 这是大二上学期《网页设计》&《信息可视化》期末专业--做一个展示网站<br>
+网站预览网址：https://lujiayan.github.io/  <br>
+
+
+
 # Skinny Bones Jekyll Starter
 
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
