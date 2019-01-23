@@ -1,4 +1,4 @@
-# 这是大二上学期《网页设计》&《信息可视化》期末专题--一个作品集展示网页<br>
+## 基于Jekyll在GitHub搭建的个人博客<br>
 网站预览网址：https://lujiayan.github.io/  <br>
 
 
