@@ -6,16 +6,8 @@ image:
   teaser: pink.jpg
   feature: pink.jpg
 ---
-<div class="About">
- <div class="top card">
-    <a class="email" href="mailto:{{site.email}}">{{site.email}}</a>
-    <p class="description">{{ site.description }}</p>
-    <a href="about" class="btn">Read More</a>
-  </div>
-  
 
-
-<!--
+ 
 简介：<br>
 我来自中山大学南方学院
 文学与传媒学院
@@ -32,4 +24,3 @@ KNOW MORE:<br>
 -学号：161013068<br>
 -邮箱：lujiayan123@126.com<br>
 GitHub：https://github.com/LuJIAYan<br>
--->
