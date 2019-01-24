@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: "Sophia的个人学习网站"
-description: "这是我的个人博客，也是我的期末作业"
+description: "这是我的个人博客"
 logo: # 个人的logo120x120 px default image used for Twitter summary card
 affiliation: "中山大学南方学院 <a href = 'http://wcy.nfu.edu.cn/zh/教学教务/培养方案/网络与新媒体/'>网络与新媒体</a> 培养方案核心课程学期作品，由 <a href='http://wcy.nfu.edu.cn/zh/学院概况/师资队伍/廖汉腾/'>廖汉腾副教授</a> 指导"
 

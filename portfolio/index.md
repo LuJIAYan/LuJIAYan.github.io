@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "作品集(WEB)"
+title: "课程作品集"
 date: 2018-1-1T14:25:45-04:00
 modified:
-excerpt: "网页制作展览"
+excerpt: "期末项目展览"
 tags: []
 ---
 
@@ -13,3 +13,9 @@ tags: []
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 portfolio 的列出来-->
+
+<div class="tiles">
+{% for post in site.categories.tableau %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles 把所有categories 有 tableau 的列出来-->

@@ -1,15 +1,15 @@
 # Site navigation links
+# 页面结构看这里
 
 
-
-- title: 网页设计作品集
+- title: 课程作业
   url: /portfolio/ 
-  excerpt: "网页设计的个人作品集"
+  excerpt: "课程作业作品集"
   image: 地球.gif
 
-- title: 信息可视化作品集
+- title: 网络项目实战
   url: /infovis/ 
-  excerpt: "信息可视化的个人作品集"
+  excerpt: "跟着大牛走"
   image: 卡通.gif
   
 - title: 学习笔记
@@ -20,5 +20,5 @@
   
 - title: 联系我
   url: /contact/
-  excerpt: "爱我请留言"
+  excerpt: "请联系我"
   image: contact动图.gif

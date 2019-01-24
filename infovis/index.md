@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "信息可视化作品集"
+title: "网络项目实战"
 date: 2018-1-1T14:25:45-04:00
 modified:
-excerpt: "可视化设计作品集"
+excerpt: "网络项目实战"
 tags: []
 ---
 

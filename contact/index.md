@@ -10,7 +10,7 @@ image:
 我来自中山大学南方学院
 文学与传媒学院
 网络与新媒体专业<br>
-一个不折不扣的小白，努力探索ing...
+小白努力探索ing...
 
 > “Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something. It seemed obvious to them after a while.”
 > 
