@@ -66,3 +66,5 @@ exclude:
   - spec
   - tmp
 port: 5001
+
+theme: jekyll-theme-cayman
